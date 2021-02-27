@@ -1,0 +1,402 @@
+body
+{
+    background: white;
+    margin-left: 0;
+}
+
+.main_wrapper
+{
+    height: auto;
+    width: auto;
+}
+
+.header_wrapper
+{
+    width: 80%;
+    height: 150px;
+    margin: auto;
+}
+
+#logo
+{
+    float:left;
+}
+
+.menubar
+{
+    width: 93.5%;
+    height: 80%;
+    background: grey;
+    color: white;
+}   
+
+#menu
+{
+    padding-top: 2%;
+    margin: 0;
+    line-height: 250%;
+    float:left;
+}
+
+#menu li
+{
+    list-style: none;
+    display: inline;
+}
+
+#menu a
+{
+    text-decoration: none;
+    color: white;
+    padding: 0.5vw;
+    font-size: 1.4vw;
+    font-family: COMIC SANS MS;
+}
+
+#menu a:hover{color: skyblue; font-weight: bolder;}
+
+#form{width: 300px; float:right; line-height: 5vw;}
+
+.content_wrapper
+{
+    width: 70%;
+    margin: auto;
+    height: fit-content;
+}
+
+#content_area
+{
+    width: 85%;
+    float: right;
+    background: rgb(161, 197, 153);
+    height: fit-content;
+    min-height: 780px;
+    position: relative;
+}
+
+#sidebar
+{
+    width: 15%; 
+    background: grey;
+    float: left;
+    min-height: 780px;
+}
+
+
+.sidebar_title
+{
+    text-align: center;
+    background: rgb(87, 87, 87);
+    color: white;
+    font-size: 1.5vw;
+    height: 2.3vw;
+    font-family: Arial;
+    padding-top: 0.5vw;
+}
+
+#cats
+{
+    text-align: center;
+    padding: inherit;
+}
+
+#cats li
+{
+    list-style: none;
+    margin: 0.5vw;
+}
+
+#cats a
+{
+    color: white;
+    margin: 0.1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    font-family: COMIC SANS MS;
+}
+
+#cats a:hover {color:skyblue; font-weight: bolder;}
+
+#brands
+{
+    text-align: center;
+    padding: inherit;
+}
+
+#brands li
+{
+    list-style: none;
+    margin: 0.5vw;
+}
+
+#brands a
+{
+    color: white;
+    margin: 0.1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    font-family: COMIC SANS MS;
+}
+
+#brands a:hover {color:skyblue; font-weight: bolder;}
+
+#products_box
+{
+    width: 90%;
+    text-align: center;
+    margin-left: 3vw;
+    margin-bottom: 10px;
+}
+
+#single_product
+{
+    float: left;
+    margin-left: 30px;
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 1.1vw;
+    width: 250px;
+}
+
+#single_product p
+{
+    font-size: 1.1vw;
+    width: fit-content;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#single_product a:hover
+{
+    color: skyblue; 
+    font-weight: bolder;
+}
+
+#single_product_details
+{
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    font-size: 1.1vw;
+    width: fit-content;
+}
+
+#single_product_details p
+{
+    font-size: 1.1vw;
+    width: fit-content;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#contact h1
+{
+    padding-top: 100px;
+    display: table;
+    margin: 0 auto;
+}
+#contact p
+{
+    font-size: 1.5vw;
+    padding-top: 10px;
+    display: table;
+    margin: 0 auto;
+}
+
+.allOrders a
+{
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 12px;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+.allOrders a:hover{color:red; font-weight: bolder;}
+
+.checkout a
+{
+    text-decoration: none;
+    color: blue;
+}
+
+.checkout a:hover{color:red; font-weight: bolder;}
+
+#shopping_bar {width: 100%; height: 2.8vw; background: grey; color: white; font-family: COMIC SANS MS;}
+
+#shopping_bar a
+{
+    text-decoration: none; 
+    color:white; 
+    margin-right: 10px;
+}
+
+#shopping_bar a:hover {color:skyblue; font-weight: bolder;}
+
+.button
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 17px;
+}
+
+.button2
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9vw;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+
+.textBox
+{
+    border: none;
+    font-size: 0.9vw;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.selectInput
+{
+    border: none;
+    width: 11.5vw;
+    font-size: 0.9vw;
+    border-radius: 12px;
+    text-align-last: center;
+}
+
+.login
+{
+    text-align: center;
+    font-size: 1vw;
+}
+
+.checkout
+{
+    text-align: center;
+    font-size: 1vw;
+}
+
+#footer
+{
+    height: 7%;
+    text-align: center;
+    clear: both;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+
+
+  
+  #modalContainer {
+      background-color:rgba(0, 0, 0, 0.3);
+      position:absolute;
+      width:100%;
+      height:100%;
+      top:0px;
+      left:0px;
+      z-index:10000;
+  }
+  
+  #alertBox {
+      position:relative;
+      width:500px;
+      min-height:100px;
+      margin-top:100px;
+      border:3px solid #4CAF50;
+      background-color: white;
+      background-repeat:no-repeat;
+      background-position:20px 30px;
+      border-radius: 12px;
+  }
+  
+  #alertBox p 
+  {
+      font:1.2em verdana,arial;
+      height:50px;
+      text-align: center;
+
+  }
+  
+  #alertBox #closeBtn {
+      display:block;
+      position:relative;
+      margin:5px auto;
+      padding:5px;
+      border:0 none;
+      width:70px;
+      font:1.2em verdana,arial;
+      text-transform:uppercase;
+      text-align:center;
+      color:#FFF;
+      background-color:#4CAF50;
+      border-radius: 12px;
+      text-decoration:none;
+  }
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    padding-right: 30px;
+    background-color: grey;
+    color: white;
+    font-size: 1.2vw;
+    border: none;
+    font-family: COMIC SANS MS;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: grey;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}

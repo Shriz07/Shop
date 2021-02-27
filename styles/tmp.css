@@ -1,0 +1,199 @@
+body
+{
+    background: white;
+    margin-left: 0;
+}
+
+.main_wrapper
+{
+    height: auto;
+    width: auto;
+}
+
+.header_wrapper
+{
+    width: 80%;
+    height: 150px;
+    margin: auto;
+}
+
+#logo
+{
+    float:left;
+}
+
+.menubar
+{
+    width: 93.5%;
+    height: 80%;
+    background: grey;
+    color: white;
+}   
+
+#menu
+{
+    padding-top: 2%;
+    margin: 0;
+    line-height: 250%;
+    float:left;
+}
+
+#menu li
+{
+    list-style: none;
+    display: inline;
+}
+
+#menu a
+{
+    text-decoration: none;
+    color: white;
+    padding: 0.5vw;
+    font-size: 1.4vw;
+    font-family: COMIC SANS MS;
+}
+
+#menu a:hover{color: skyblue; font-weight: bolder;}
+
+#form{width: 300px; float:right; line-height: 5vw;}
+
+.content_wrapper
+{
+    width: 70%;
+    margin: auto;
+    background: rgb(142, 177, 126);
+    height: 100%;
+}
+
+#content_area
+{
+    width: 85%;
+    float: right;
+    background: rgb(161, 197, 153);
+    height: fit-content;
+    min-height: 850px;
+    position: relative;
+}
+
+#sidebar
+{
+    width: 15%; 
+    background: grey;
+    float: left;
+    min-height: 850px;
+}
+
+#sidebar_title
+{
+    text-align: center;
+    background: rgb(87, 87, 87);
+    color: white;
+    font-size: 1.5vw;
+    height: 2.3vw;
+    font-family: Arial;
+    padding-top: 0.5vw;
+}
+
+#cats
+{
+    text-align: center;
+    padding: inherit;
+}
+
+#cats li
+{
+    list-style: none;
+    margin: 0.5vw;
+}
+
+#cats a
+{
+    color: white;
+    margin: 0.1vw;
+    font-size: 1vw;
+    text-decoration: none;
+    font-family: COMIC SANS MS;
+}
+
+#cats a:hover {color:skyblue; font-weight: bolder;}
+
+#products_box
+{
+    width: 90%;
+    text-align: center;
+    margin-left: 3vw;
+    margin-bottom: 10px;
+}
+
+#single_product
+{
+    float: left;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+#single_product a:hover
+{
+    color: skyblue; 
+    font-weight: bolder;
+}
+
+#shopping_bar {width: 100%; height: 2.8vw; background: grey; color: white; font-family: COMIC SANS MS;}
+
+#shopping_bar a
+{
+    text-decoration: none; 
+    color:white; 
+    margin-right: 10px;
+}
+
+#shopping_bar a:hover {color:skyblue; font-weight: bolder;}
+
+.button
+{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.button2
+{
+    background-color: rgb(161, 197, 153);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.8vw;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.textBox
+{
+    border: none;
+    font-size: 0.8vw;
+    border-radius: 12px;
+}
+
+.login
+{
+    text-align: center;
+    font-size: 1vw;
+}
+
+#footer
+{
+    bottom: 0;
+    width: 70%;
+    height: 7%;
+    background: rgb(87, 87, 87);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
